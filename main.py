@@ -29,3 +29,5 @@ c = {'onlineId' : username, 'reserveIfAvailable' : False}
 response = requests.post("https://accounts.api.playstation.com/api/v1/accounts/onlineIds", json=c , headers=headers)
 if response.status_code == 201:
     print(username , "is not taken")
+else:
+    print('{} is taken'.format(username))
