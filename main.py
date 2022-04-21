@@ -8,7 +8,7 @@ headers = {
     'Accept-Language': 'ar,en-US;q=0.7,en;q=0.3',
     # 'Accept-Encoding': 'gzip, deflate, br',
     'Referer': 'https://id.sonyentertainmentnetwork.com/',
-    'Authorization': 'Bearer 12345678-1234-1234-1234-123456789111',
+    'Authorization': 'Bearer 12345678-1234-1234-1234-123456789111', ####### Spoofed Barrer Must be in this pattern
     'X-Psn-Platform': 'WEB',
     'X-Psn-Account-Country': 'FR',
     'Content-Type': 'application/json; charset=utf-8',
